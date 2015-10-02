@@ -1,0 +1,55 @@
+/*
+
+Theme Name: X &ndash; Child Theme
+Theme URI: http://theme.co/x/
+Author: Themeco
+Author URI: http://theme.co/
+Description: Make all of your modifications to X in this child theme.
+Version: 1.0.0
+Template: x
+
+*/
+
+/* Table of Contents 
+1. Form Style Overrides
+*/
+
+
+/* 1. */
+
+#field_1_1 label,
+#field_1_2 label,
+#field_2_3 label,
+#field_2_2 label, 
+#input_2_1_3_container label,
+#input_2_1_6_container label {
+	display: none;
+}
+
+#field_1_1 input,
+#field_1_2 input,
+#input_2_1 input,
+#field_2_3 input,
+#field_2_2 textarea,
+#field_2_2 input,
+#field_2_4 input,
+#field_2_5 textarea, 
+#input_2_1_3_container input,
+#input_2_1_6_container input {
+	border-radius: 0;
+	border: 0;
+	color: #fff;
+}
+
+#field_2_4 {
+	margin-top: -28px;
+}
+
+#field_2_5 {
+	margin-top: -22px;
+}
+
+.ginput_container {
+	width: 97.5%;
+
+

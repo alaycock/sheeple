@@ -1,0 +1,13 @@
+#pt-notification a {
+text-transform: uppercase;
+background-color: #00E3FF !important;
+display: block;
+color: #111;
+padding-left: 30px !important;
+padding-right: 30px !important;
+font-weight: 900;
+text-shadow: 0px 0px 5px #fff;
+}
+#pt-notification a:hover {
+background-color:#93ECFF !important;
+}
